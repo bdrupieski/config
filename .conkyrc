@@ -52,6 +52,8 @@ ${color1}Core 2             ${alignr}${color}${cpu cpu2}%  ${cpubar cpu2}
 ${color1}Core 3             ${alignr}${color}${cpu cpu3}%  ${cpubar cpu3}
 ${color1}Core 4             ${alignr}${color}${cpu cpu4}%  ${cpubar cpu4}
 
+${cpugraph}
+
 ${font AvantGardeLTMedium:bold:size=10}${color Tan1}Memory ${color slate grey}${hr 2}${font}
 ${color1}Memory             ${color}${alignr}${memeasyfree} / ${memmax}
 ${color1}Currently          ${color}${alignr}${memperc}%   ${membar}
