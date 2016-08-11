@@ -62,6 +62,8 @@ ${color1}Currently          ${color}${alignr}${memperc}%   ${membar}
 ${font AvantGardeLTMedium:bold:size=10}${color Tan1}Filesystem ${color slate grey}${hr 2}${font}
 ${color1}/                  ${color}${alignc}${fs_used /} / ${fs_size /} ${color}${alignr}${fs_free_perc /} %
 ${color}${fs_bar 5,300 /}
+${color1}/home              ${color}${alignc}${fs_used /home} / ${fs_size /home} ${color}${alignr}${fs_free_perc /home} %
+${color}${fs_bar 5,300 /home}
 
 ${font AvantGardeLTMedium:bold:size=10}${color Tan1}Networking ${color slate grey}${hr 2}${font}
 ${if_existing /proc/net/route wlan0}${color1}IP     ${color}${alignr}${addr wlan0}
